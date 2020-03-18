@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LSIFirstResponder.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    LSIFirstResponder *firstResponder = [[LSIFirstResponder alloc] initWithName:@"Steve"];
+    
+    NSLog(@"responder: %@", firstResponder);
 }
 
 

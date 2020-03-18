@@ -25,6 +25,9 @@
 		BDFC8FB623FDA12B00A39B21 /* LSILog.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC8FAF23FDA12B00A39B21 /* LSILog.m */; };
 		BDFC8FB723FDA12B00A39B21 /* LSIErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC8FB223FDA12B00A39B21 /* LSIErrors.m */; };
 		BDFC8FB823FDA12B00A39B21 /* LSIErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = BDFC8FB223FDA12B00A39B21 /* LSIErrors.m */; };
+		E9F3727224227EBF00F7949B /* LSIFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F3727124227EBF00F7949B /* LSIFirstResponder.m */; };
+		E9F37275242288AD00F7949B /* LSIQuake.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F37274242288AD00F7949B /* LSIQuake.m */; };
+		E9F37276242288AD00F7949B /* LSIQuake.m in Sources */ = {isa = PBXBuildFile; fileRef = E9F37274242288AD00F7949B /* LSIQuake.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +64,10 @@
 		BDFC8FB023FDA12B00A39B21 /* LSIErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSIErrors.h; sourceTree = "<group>"; };
 		BDFC8FB123FDA12B00A39B21 /* LSIFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSIFileHelper.h; sourceTree = "<group>"; };
 		BDFC8FB223FDA12B00A39B21 /* LSIErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSIErrors.m; sourceTree = "<group>"; };
+		E9F3727024227EBF00F7949B /* LSIFirstResponder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIFirstResponder.h; sourceTree = "<group>"; };
+		E9F3727124227EBF00F7949B /* LSIFirstResponder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIFirstResponder.m; sourceTree = "<group>"; };
+		E9F37273242288AD00F7949B /* LSIQuake.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIQuake.h; sourceTree = "<group>"; };
+		E9F37274242288AD00F7949B /* LSIQuake.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIQuake.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +91,8 @@
 		BDFC8F7423FDA09F00A39B21 = {
 			isa = PBXGroup;
 			children = (
+				E9F37273242288AD00F7949B /* LSIQuake.h */,
+				E9F37274242288AD00F7949B /* LSIQuake.m */,
 				BDFC8F7F23FDA09F00A39B21 /* Quakes-Objc */,
 				BDFC8F9B23FDA0A100A39B21 /* Quakes-ObjcTests */,
 				BDFC8F7E23FDA09F00A39B21 /* Products */,
@@ -146,6 +155,8 @@
 			children = (
 				BDFC8FA723FDA0C800A39B21 /* Quake.json */,
 				BDFC8FAA23FDA0DA00A39B21 /* Quakes.json */,
+				E9F3727024227EBF00F7949B /* LSIFirstResponder.h */,
+				E9F3727124227EBF00F7949B /* LSIFirstResponder.m */,
 			);
 			path = JSON;
 			sourceTree = "<group>";
@@ -254,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9F3727224227EBF00F7949B /* LSIFirstResponder.m in Sources */,
+				E9F37275242288AD00F7949B /* LSIQuake.m in Sources */,
 				BDFC8FB323FDA12B00A39B21 /* LSIFileHelper.m in Sources */,
 				BDFC8FB523FDA12B00A39B21 /* LSILog.m in Sources */,
 				BDFC8F8823FDA09F00A39B21 /* ViewController.m in Sources */,
@@ -269,6 +282,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BDFC8FB423FDA12B00A39B21 /* LSIFileHelper.m in Sources */,
+				E9F37276242288AD00F7949B /* LSIQuake.m in Sources */,
 				BDFC8FB623FDA12B00A39B21 /* LSILog.m in Sources */,
 				BDFC8F9D23FDA0A100A39B21 /* Quakes_ObjcTests.m in Sources */,
 				BDFC8FB823FDA12B00A39B21 /* LSIErrors.m in Sources */,
